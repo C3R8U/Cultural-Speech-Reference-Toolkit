@@ -1,0 +1,23 @@
+{
+  "provenance": "Transcribed from supplied manuscript; not original executable configuration",
+  "seeds": [17, 29, 42, 73, 101],
+  "mfcc": {"static": 13, "with_deltas": 39, "sample_rate": 16000, "window_ms": 25, "hop_ms": 10},
+  "acoustic_layers": 3,
+  "hidden_per_direction": 256,
+  "semantic_layers": 2,
+  "embedding": 128,
+  "generation_layers": 2,
+  "dropout": 0.3,
+  "learning_rate": 0.001,
+  "batch_size": 32,
+  "max_epochs": 50,
+  "patience": 10,
+  "gradient_clip": 5.0,
+  "loss_weights": [0.60, 0.25, 0.15],
+  "ctc_beam": 10,
+  "reranking_candidates": 5,
+  "generation_beam": 5,
+  "poetry_max_tokens": 64,
+  "story_max_tokens": 128,
+  "unreported_choices": ["MFCC normalization and filter parameters", "exact numeric text normalization", "semantic reranking weight", "full task schedule", "exact corpus subsets and hashes", "noise source and dialect split protocol", "original metric tokenizer", "original software lockfile"]
+}

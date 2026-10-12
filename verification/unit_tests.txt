@@ -1,0 +1,31 @@
+test_antialias_resample_and_mfcc (test_audio.AudioTests.test_antialias_resample_and_mfcc) ... C:\Users\14006\Documents\ResearchAI\SkillTest\.venv\Lib\site-packages\librosa\core\intervals.py:8: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  from pkg_resources import resource_filename
+C:\Users\14006\Documents\ResearchAI\SkillTest\.venv\Lib\site-packages\audioread\rawread.py:16: DeprecationWarning: 'aifc' is deprecated and slated for removal in Python 3.13
+  import aifc
+C:\Users\14006\Documents\ResearchAI\SkillTest\.venv\Lib\site-packages\audioread\rawread.py:17: DeprecationWarning: 'audioop' is deprecated and slated for removal in Python 3.13
+  import audioop
+C:\Users\14006\Documents\ResearchAI\SkillTest\.venv\Lib\site-packages\audioread\rawread.py:19: DeprecationWarning: 'sunau' is deprecated and slated for removal in Python 3.13
+  import sunau
+ok
+test_identical_generation_scores (test_audio.AudioTests.test_identical_generation_scores) ... ok
+test_real_file_training_evaluation_quantization_interfaces (test_cli.CLITests.test_real_file_training_evaluation_quantization_interfaces) ... ok
+test_bootstrap_paired_identical_systems (test_core.CoreTests.test_bootstrap_paired_identical_systems) ... ok
+test_bootstrap_rejects_unpaired_and_invalid (test_core.CoreTests.test_bootstrap_rejects_unpaired_and_invalid) ... ok
+test_character_metric (test_core.CoreTests.test_character_metric) ... ok
+test_ctc_matches_exhaustive_paths (test_core.CoreTests.test_ctc_matches_exhaustive_paths) ... ok
+test_hard_cascade_blocks_semantic_acoustic_gradient (test_core.CoreTests.test_hard_cascade_blocks_semantic_acoustic_gradient) ... ok
+test_holm_and_seed_ci (test_core.CoreTests.test_holm_and_seed_ci) ... ok
+test_int8_forward_checkpoint_roundtrip (test_core.CoreTests.test_int8_forward_checkpoint_roundtrip) ... C:\Users\14006\Documents\ResearchAI\SkillTest\.venv\Lib\site-packages\torch\_utils.py:392: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.  To access UntypedStorage directly, use tensor.untyped_storage() instead of tensor.storage()
+  device=storage.device,
+ok
+test_joint_loss_and_generation (test_core.CoreTests.test_joint_loss_and_generation) ... ok
+test_nonzero_bootstrap_and_error_grid (test_core.CoreTests.test_nonzero_bootstrap_and_error_grid) ... ok
+test_padded_batch_invariance (test_core.CoreTests.test_padded_batch_invariance) ... ok
+test_rating_ties_and_unpaired (test_core.CoreTests.test_rating_ties_and_unpaired) ... ok
+test_scaffolds_not_research_ready (test_core.CoreTests.test_scaffolds_not_research_ready) ... ok
+test_semantic_gradients_reach_acoustic_encoder (test_core.CoreTests.test_semantic_gradients_reach_acoustic_encoder) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 86.430s
+
+OK

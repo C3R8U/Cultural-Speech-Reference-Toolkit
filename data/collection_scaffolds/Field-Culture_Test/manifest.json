@@ -1,0 +1,46 @@
+{
+  "name": "Field-Culture_Test",
+  "artifact_type": "collection_ready_scaffold",
+  "real_audio_count": 0,
+  "human_transcript_count": 0,
+  "planned_sample_count": 600,
+  "planned_speaker_count": 30,
+  "category_counts": {
+    "文化咨询": 200,
+    "情感表达": 200,
+    "创意请求": 200
+  },
+  "raw_audio_spec": {
+    "sample_rate_hz": 48000,
+    "pcm_bits": 24,
+    "channels": 1
+  },
+  "model_audio_spec": {
+    "sample_rate_hz": 16000,
+    "pcm_bits": 16,
+    "channels": 1
+  },
+  "speaker_ids_are_reserved": true,
+  "test_only": true,
+  "recording_distance_cm": [
+    30,
+    50
+  ],
+  "scene_category_counts": {
+    "博物馆展厅": {
+      "文化咨询": 67,
+      "情感表达": 67,
+      "创意请求": 66
+    },
+    "非遗工作坊": {
+      "文化咨询": 67,
+      "情感表达": 66,
+      "创意请求": 67
+    },
+    "户外文化环境": {
+      "文化咨询": 66,
+      "情感表达": 67,
+      "创意请求": 67
+    }
+  }
+}

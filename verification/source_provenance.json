@@ -1,0 +1,19 @@
+{
+  "implementation": "newly_written_reference_code",
+  "original_experimental_code_supplied": false,
+  "original_weights_supplied": false,
+  "sources": [
+    {
+      "source_filename": "CSSP.zip",
+      "sha256": "520b95f3bdbd38d7ac1cd433a32c69fd5eec2f63fd73f8c1a60f6501d010b5c0",
+      "all_entries_preserved_byte_for_byte": true,
+      "status": "uncollected_scaffold"
+    },
+    {
+      "source_filename": "Field-Culture_Test.zip",
+      "sha256": "605eb1c7a21e574793eb545eae6621a1a659bbf5bcc1c3d4048730f77bb38124",
+      "all_entries_preserved_byte_for_byte": true,
+      "status": "uncollected_scaffold"
+    }
+  ]
+}

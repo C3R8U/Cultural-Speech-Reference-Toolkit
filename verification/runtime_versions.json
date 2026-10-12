@@ -1,0 +1,15 @@
+{
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "torch": "2.5.1+cpu",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "librosa": "0.10.1",
+    "jieba": "0.42.1",
+    "nltk": "3.9.1",
+    "rouge-score": "0.1.2",
+    "psutil": "7.2.2"
+  },
+  "quantized_engine": "x86"
+}

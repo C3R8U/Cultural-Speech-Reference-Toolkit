@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "planned_samples": 600,
+  "reserved_speakers": 30,
+  "tasks_per_speaker": [
+    20
+  ],
+  "category_counts": {
+    "文化咨询": 200,
+    "情感表达": 200,
+    "创意请求": 200
+  },
+  "split_counts": {
+    "test": 600
+  },
+  "generation_counts": {
+    "古诗续写": 99,
+    "文化故事生成": 101
+  },
+  "real_data_available": false
+}

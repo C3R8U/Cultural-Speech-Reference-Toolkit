@@ -1,0 +1,9 @@
+# Reference implementation runtime; original manuscript environment was torch 2.1.
+torch==2.5.1
+numpy>=1.26,<3
+scipy>=1.11,<2
+librosa==0.10.1
+jieba==0.42.1
+nltk==3.9.1
+rouge-score==0.1.2
+psutil>=5.9,<8

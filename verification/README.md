@@ -1,0 +1,9 @@
+# Verification scope
+
+unit_tests.txt is the final local Python test log. Tests cover gradient propagation, hard-cascade gradient blocking, batch padding invariance, joint-loss optimization, generation bounds, CTC probabilities against exhaustive alignment paths, FP32/INT8 checkpoint round trips, confidence intervals, Holm adjustment, paired bootstrap behavior and incomplete-grid rejection, Chinese metrics, antialias resampling, MFCC dimensions, and CLI execution for training, evaluation, text pretraining and quantization. All generated WAVs are artificial sine-wave fixtures in temporary directories; no original paper metrics are measured.
+
+scaffold_audit.json verifies the supplied record structures and planned counts. research_readiness.json is expected to fail the real-data gate, with zero real WAVs and transcripts. Passing scaffold structure does not mean research readiness. The validator intentionally returns exit code 2 for this missing-data condition.
+
+glmm_smoke.txt documents local R execution against explicitly artificial binary outcomes with crossed seed and utterance effects. This checks the LRT and pairwise-contrast output path, not the paper's statistical findings. R emitted locale startup warnings; the fixture completed. R session metadata are provided separately. The test fixture's generated outcomes and fitted model files are not distributed as study evidence.
+
+runtime_versions.json records local Python and direct dependency versions. source_provenance.json records source-archive hashes and checks preservation of their entries. SHA256SUMS.json at repository root verifies distributed bytes; run python tools/verify_integrity.py after extracting the archive. No real-data training, subjective questionnaire analysis, Raspberry Pi hardware test or full manuscript reproduction has been performed.

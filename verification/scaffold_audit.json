@@ -1,0 +1,77 @@
+{
+  "reports": [
+    {
+      "dataset": "CSSP",
+      "mode": "scaffold",
+      "structure_passed": true,
+      "research_ready": false,
+      "passed": true,
+      "samples": 4800,
+      "reserved_speakers": 60,
+      "actual_audio": 0,
+      "actual_transcripts": 0,
+      "split_counts": {
+        "train": 2880,
+        "validation": 960,
+        "test": 960
+      },
+      "planned_categories": {
+        "文化咨询": 1600,
+        "情感表达": 1600,
+        "创意请求": 1600
+      },
+      "missing": {
+        "raw_audio_path": 4800,
+        "model_audio_path": 4800,
+        "transcript": 4800,
+        "actual_intent_label": 4800,
+        "collected_status": 4800,
+        "audio_present_flag": 4800,
+        "verified_generation_reference": 1600,
+        "reference_verification": 1600,
+        "verified_adult_speakers": 60,
+        "speaker_consent": 60,
+        "identity_verification": 60
+      },
+      "errors": [],
+      "note": "Structural validity does not certify actual participants or completed experiments"
+    },
+    {
+      "dataset": "Field-Culture_Test",
+      "mode": "scaffold",
+      "structure_passed": true,
+      "research_ready": false,
+      "passed": true,
+      "samples": 600,
+      "reserved_speakers": 30,
+      "actual_audio": 0,
+      "actual_transcripts": 0,
+      "split_counts": {
+        "test": 600
+      },
+      "planned_categories": {
+        "文化咨询": 200,
+        "情感表达": 200,
+        "创意请求": 200
+      },
+      "missing": {
+        "raw_audio_path": 600,
+        "model_audio_path": 600,
+        "transcript": 600,
+        "actual_intent_label": 600,
+        "collected_status": 600,
+        "audio_present_flag": 600,
+        "verified_generation_reference": 200,
+        "reference_verification": 200,
+        "verified_adult_speakers": 30,
+        "speaker_consent": 30,
+        "identity_verification": 30
+      },
+      "errors": [],
+      "note": "Structural validity does not certify actual participants or completed experiments"
+    }
+  ],
+  "cross_dataset_id_overlap": [],
+  "passed": true,
+  "identity_note": "Distinct reserved IDs cannot prove different real people"
+}

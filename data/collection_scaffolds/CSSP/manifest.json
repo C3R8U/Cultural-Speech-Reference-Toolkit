@@ -1,0 +1,29 @@
+{
+  "name": "CSSP",
+  "artifact_type": "collection_ready_scaffold",
+  "real_audio_count": 0,
+  "human_transcript_count": 0,
+  "planned_sample_count": 4800,
+  "planned_speaker_count": 60,
+  "category_counts": {
+    "文化咨询": 1600,
+    "情感表达": 1600,
+    "创意请求": 1600
+  },
+  "raw_audio_spec": {
+    "sample_rate_hz": 48000,
+    "pcm_bits": 24,
+    "channels": 1
+  },
+  "model_audio_spec": {
+    "sample_rate_hz": 16000,
+    "pcm_bits": 16,
+    "channels": 1
+  },
+  "speaker_ids_are_reserved": true,
+  "split_speakers": {
+    "train": 36,
+    "validation": 12,
+    "test": 12
+  }
+}
